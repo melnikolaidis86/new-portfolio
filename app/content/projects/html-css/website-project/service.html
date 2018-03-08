@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+
+	<meta charset="utf-8">
+	<title>Service - Autocentro Sportivo</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="keywords" content="Autocentro Sportivio - Εξειδικευμένο συνεργείο: Fiat - Alfa Romeo - Lancia - Ferrari - Mazerati">
+	<meta name="description" content="Fiat, Alfa Romeo, Lancia, Ferrari, Mazerati, Facom, Examiner, συνεργείο, γνήσια ανταλλακτικά, γενική επισκευή, χρονισμός, ανάρτηση, φρένα.">
+    <meta name="author" content="Νίκος Βάβουλας - Nikos Vavoulas">
+
+	<link rel="stylesheet" href="./assets/css/bootstrap-grid.css" type="text/css">
+    <link rel="stylesheet" href="./assets/css/styles.css" type="text/css">
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+
+
+</head>
+<body>
+
+    <section id="upper-header">
+        <div class="container-fluid">
+            <div class="row wrapper header-info">
+                <div class="col-4">
+                    <p>Autocentro Sportivo</p>
+                </div>
+                <div class="col-4 offset-4 align-right">
+                    <p><span class="text-muted">ΔΙΕΥΘΥΝΣΗ:</span> ΚΑΤΣΟΥΛΑΚΟΥ 23, ΠΕΙΡΑΙΑΣ 185 47</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <header>
+        <div class="container-fluid">
+            <div class="row wrapper">
+                <div class="col-lg-4 logo">
+                    <img src="assets/images/autocentro-logo.png" alt="website-logo" />
+                </div>
+                <div class="col-lg-6 offset-lg-2 main-menu">
+                    <nav role="navigation">
+                        <ul>
+                            <li><a href="index.html">ΑΡΧΙΚΗ</a></li>
+                            <li>
+                                <a onClick="displaySubMenu()">
+                                    ΕΤΑΙΡΙΑ
+                                    <span><i class="fa fa-caret-down" aria-hidden="true"></i></span>
+                                    <div id="submenu">
+                                        <ul>
+                                            <li><a href="company.html">ΤΟ ΣΥΝΕΡΓΕΙΟ ΜΑΣ</a></li>
+                                            <li><a href="about.html">ΠΟΙΟΙ ΗΜΑΣΤΕ</a></li>
+                                        </ul>
+                                    </div>
+                                </a>
+
+                            </li>
+                            <li>
+                                <a onClick="displaySubMenu()">
+                                    ΥΠΗΡΕΣΙΕΣ
+                                    <span><i class="fa fa-caret-down" aria-hidden="true"></i></span>
+                                    <div id="submenu">
+                                        <ul>
+                                            <li><a href="service.html">ΕΛΕΓΧΟΣ &amp; SERVICE</a></li>
+                                            <li><a href="repair.html">ΕΠΙΣΚΕΥΕΣ</a></li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </li>
+                            <li><a href="contact.html">ΕΠΙΚΟΙΝΩΝΙΑ</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="row wrapper">
+                <div class="col-2 offset-5 responsive-menu-icon">
+                    <div id="menu_icon" class="menu-icon" onclick="responsive_menu_display()">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row wrapper">
+                <div id="responsive-menu" class="col-4 offset-4 responsive-menu-hide">
+                    <div class="responsive-menu-items">
+                        <ul>
+                            <li><a href="index.html">ΑΡΧΙΚΗ</a></li>
+                            <li><span class="text-muted">ΕΤΑΙΡΙΑ</span>
+                                <ul>
+                                    <li><a href="company.html">ΤΟ ΣΥΝΕΡΓΕΙΟ ΜΑΣ</a></li>
+                                    <li><a href="about.html">ΠΟΙΟΙ ΗΜΑΣΤΕ</a></li>
+                                </ul>
+                            </li>
+                            <li><span class="text-muted">ΥΠΗΡΕΣΙΕΣ</span>
+                                <ul>
+                                    <li><a href="service.html">ΕΛΕΓΧΟΣ &amp; SERVICE</a></li>
+                                    <li><a href="repair.html">ΕΠΙΣΚΕΥΕΣ</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="contact.html">ΕΠΙΚΟΙΝΩΝΙΑ</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container-fluid">
+            <div class="row wrapper page-title">
+                <div class="col-12">
+                    <h1>Έλεγχος και τακτικό service</h1>
+                </div>
+            </div>
+            <div class="row wrapper service-block">
+                <div class="col-md-5 col-xl-4 offset-xl-1 service-image">
+                    <img src="assets/images/service-page/originali-ricambi.jpg" alt="Genuine Fiat auto parts">
+                </div>
+                <div class="col-md-5 offset-md-2 col-xl-4 offset-xl-2 service-block-text">
+                    <p>Στο συνεργείο μας χρησιμοποιούμε γνήσια ανταλλακτικά Fiat -Lancia - Alfa Romeo. Διαθέτουμε αποθήκη εφοδιασμένη με ανταλλακτικά για όλα τα μοντέλα και εγγυώμαστε οτι ο έλεγχος ή το service του αυτοκινήτου σας θα τηρεί της προδριαγραφές της αντιπροσωπείας.</p>
+                </div>
+            </div>
+            <div class="row wrapper equipment-block">
+                <div class="col-md-5 col-xl-4 offset-xl-1 equipment-list">
+                    <h3>Διαθέτουμε τελευταίας γενιάς διαγνωστικά μηχανήματα:</h3>
+                    <ul>
+                        <li>Examiner (διαγνωστικό για Fiat - Alfa Romeo - Lancia)</li>
+                        <li>Examiner 2</li>
+                        <li>Marelli Tech(διαγνωστικό για Fiat - Alfa Romeo - Abarth)</li>
+                        <li>Skill ST 05 για Ferrari - Mazerati</li>
+                        <li>Facom (συντήρηση air-condition)</li>
+                        <li>Facom (ανάλυση καυσαερίων)</li>
+                        <li>Zapp Carbon Tech (συντήρηση μπεκ - tbi - gdi)</li>
+                        <li>Πλήρη σειρά εργαλείων της Facom</li>
+                    </ul>
+                </div>
+                <div class="col-md-5 offset-md-2 col-xl-4 offset-xl-2 equipment-image">
+                    <img src="assets/images/service-page/facom-tools.jpg" alt="Collection of Facom tools">
+                </div>
+            </div>
+        </div>
+    </main>
+
+		<footer>
+				<div class="container-fluid">
+						<div class="row wrapper">
+								<div class="col-lg-4 col-md-6  newsletter mb-5">
+										<h3 class="mb-3">Εγγραφείτε για να λαμβάνετε ενημερώσεις για προσφορές</h3>
+										<form>
+										<div class="row no-gutters">
+												<div class="col-lg-8 ">
+														<input type="text" placeholder="Συμπληρώστε το email σας" />
+												</div>
+												<div class="col-lg-4 ">
+														<button class="submit-button" type="submit">Αποστολή</button>
+												</div>
+										</div>
+										</form>
+								</div>
+								<div class="col-lg-4 offset-lg-4 col-md-6 social-icons mb-5">
+										<h3 class="text-center mb-3">Βρείτε μας στα Social Media</h3>
+										<ul>
+												<li>
+														<a href="https://el-gr.facebook.com/" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+												</li>
+												<li>
+														<a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+												</li>
+												<li>
+														<a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+												</li>
+										</ul>
+								</div>
+						</div>
+				</div>
+				<div class="container-fluid">
+						<div class="row copyright">
+								<div class="col-12">
+										<p>Autocentro Sportivo Copyright &copy; 2018</p>
+								</div>
+						</div>
+				</div>
+		</footer>
+
+    <script type="text/javascript">
+
+        
+        /* Function for displaying the responsive menu */
+       function responsive_menu_display() {
+            var responsive_menu = document.getElementById("responsive-menu");
+            var menu_icon = document.getElementById("menu_icon");
+
+            if(responsive_menu.className == "responsive-menu-hide") {
+                responsive_menu.className = "responsive-menu";
+                menu_icon.className = "menu-icon change";
+            } else {
+                responsive_menu.className = "responsive-menu-hide";
+                menu_icon.className = "menu-icon";
+            }
+        }
+        
+        /* Function for showing submenu on tablet devices */
+        function displaySubMenu() {
+            
+            var submenu = document.getElementById('submenu');
+            
+            if(submenu.style.display == "none") {
+                submenu.style.display = "block"; 
+            }
+        }
+
+    </script>
+
+</body>
+</html>

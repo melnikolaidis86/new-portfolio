@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Image Gallery</title>
+	<link rel="stylesheet" href="assets/css/styles.css" type="text/css">  
+    
+</head>
+<body>
+    <div class="slider-container" id="sliderDivs">
+        
+        <div class="image-wrapper image-wrapper--active">
+            <div class="image-wrapper__image">
+                <img src="assets/img/avengers.jpg" alt="Marvel's Avengers">
+            </div>
+            <div class="image-wrapper__caption">
+                <p>The Avengers</p>
+            </div>
+        </div>
+        <div class="image-wrapper">
+            <div class="image-wrapper__image">
+                <img src="assets/img/blade-runner-2049.jpg" alt="Blade Runner 2049">
+            </div>
+            <div class="image-wrapper__caption">
+                <p>Blade Runner 2049</p>
+            </div>
+        </div>
+        <div class="image-wrapper">
+            <div class="image-wrapper__image">
+                <img src="assets/img/guardians-of-the-galaxy.jpg" alt="Guardians of the Galaxy">
+            </div>
+            <div class="image-wrapper__caption">
+                <p>Guardians of the Galaxy</p>
+            </div>
+        </div>
+        <div class="image-wrapper">
+            <div class="image-wrapper__image">
+                <img src="assets/img/justice-league.jpg" alt="Justice League">
+            </div>
+            <div class="image-wrapper__caption">
+                <p>Justice League</p>
+            </div>
+        </div>
+        <!-- An extra div for demostration purposes  
+        <div class="image-wrapper">
+            <div class="image-wrapper__image">
+                <img src="assets/img/deadpool.jpg" alt="Deadpool">
+            </div>
+            <div class="image-wrapper__caption">
+                <p>Deadpool</p>
+            </div>
+        </div>
+        -->     
+        
+        <div class="slider-container__buttons">
+            <div class="slider-container__buttons--play" id="playButton">
+                <img src="assets/img/icons/play-button.png" alt="play-button"/>
+            </div>
+            <div class="slider-container__buttons--stop" id="stopButton">
+                <img src="assets/img/icons/stop-button.png" alt="stop-button"/>
+            </div>
+        </div>
+        
+        <div class="slider-container__arrows" id="sliderArrows">
+            <div class="slider-container__arrows--left">
+                <img src="assets/img/icons/back.png" alt="left-arrow">
+            </div>
+            <div class="slider-container__arrows--right">
+                <img src="assets/img/icons/next.png" alt="right-arrow">
+            </div>
+        </div>
+        
+        <div id="sliderThumbnails" class="slider-container__thumbnails">
+            <!-- content will be created automatically -->
+        </div>
+        
+    </div>
+    
+    <!-- Scirpts for image gallery, SliderInit is used to preload all necessary divs -->
+    <script type="text/javascript" src="assets/js/sliderInit.js"></script>
+    <script type="text/javascript" src="assets/js/slider.js"></script>
+</body>
+</html>
